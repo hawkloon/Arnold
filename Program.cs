@@ -181,9 +181,7 @@ namespace VoiceRecognition
         {
             { $"Fuck you {assistantName}, why are you ignoring your child and serving {userName}", false },
             { $"Goddamn it, what is it now {femaleName}", true},
-            { "You just left me and your 2 children?", false },
-            { $"No shit, those kids ain't mine, I ain't black {femaleName}", true},
-            { $"You are gonna pay me Child support {assistantName}. Even if they ain't yours", false }
+            { "You just left me and your 2 children?", false }
         };
         private static void Synth_SpeakCompleted(object? sender, SpeakCompletedEventArgs e)
         {
